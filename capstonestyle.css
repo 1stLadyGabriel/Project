@@ -1,0 +1,107 @@
+header{
+  height:80px;
+  background-image: url("darkness.png");
+  background-size:cover;
+  background-position: center;
+  opacity:0.80;
+  border:white 15px;
+  border-style: dotted;
+  padding: 15px;
+  font-size: 50px;
+  color:white;
+  text-align:center;
+  font-family: "Sofia" ,sans-serif;
+}
+
+.topnav {
+  overflow: auto;
+  background-color: #990073;
+  border-width:medium;
+  opacity:0.75;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Audiowide", sans-serif;
+}
+
+.topnav a:hover {
+  background-color: hotpink;
+  color: black;
+}
+
+body{
+  background-image: url("https://images.pexels.com/photos/3110502/pexels-photo-3110502.jpeg");
+  background-size:1840px 1440px;
+  background-attachment: fixed;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  margin:5px;
+  padding:2px;
+  align-items: center;
+}
+
+.rightcolumn {
+  float: right;
+  width: 22%;
+  background-color: rgba(0,0,128,0.80);
+  margin-right: 7px;
+  position: fixed;
+  right:0;
+  top:312px;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.card {
+  color: white;
+  background-color: rgba(0, 0, 128,0.80);
+  padding: 10px;
+
+  font-size: 25px;
+  font-family:"play"
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 100%) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+h2{
+  color: #cc0099;
+  text-align: center;
+  font-family:"Audiowide",sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-variant: small-caps;
+  background-color:#1aff1a;
+}
+
+h3{
+  text-align: center;
+  color:white;
+  font-size:20px;
+  font-family: "play"
+}
